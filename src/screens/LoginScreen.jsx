@@ -57,6 +57,7 @@ export function LoginScreen() {
             onChange={(e) => setEmail(e.target.value)}
             placeholder="your@email.com"
             required
+            autoComplete="email"
           />
         </div>
 
@@ -69,6 +70,7 @@ export function LoginScreen() {
             onChange={(e) => setPassword(e.target.value)}
             placeholder="••••••••"
             required
+            autoComplete="current-password"
           />
         </div>
 
@@ -88,7 +90,7 @@ export function LoginScreen() {
           Don't have an account?
         </p>
         <a
-          href="https://slice-culture-testpizza1.be1st.io/signup"
+          href="https://slice-culture-testpizza1.be1st.io/register"
           target="_blank"
           rel="noopener noreferrer"
           style={{
